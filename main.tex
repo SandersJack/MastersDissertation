@@ -35,7 +35,7 @@
 
 \title{\huge Searching for Dark Matter in North Yorkshire: A direct light Dark
 Matter search at the Boulby Underground Laboratory\\ \bigskip  \LARGE Neutron Spectroscopy using Spherical Proportional Counter
-\newline \includegraphics[height=6cm]{bham.png}}
+\newline \includegraphics[height=6cm]{plots/bham.png}}
 \usepackage{authblk}
 \author[$\ssymbol{2}$]{J. Sanders}
 \author[$\ssymbol{2}$]{K. Nikolopoulos}
@@ -75,7 +75,7 @@ The Spherical Proportional Counter (SPC) was first proposed in 2008 as a multipu
 \newline Initial results came from the SEDINE detector located at the Modane Underground Laboratory in France, consisting of a 60\,cm diameter, pure copper sphere with a 6.3\,mm diameter central anode filled with a gas mixture of neon and \ce{C}\ce{H_4}\cite{Arnaud_2018}. The combination of gases was selected to fulfil the experimental criteria. A Noble gas was selected for its significant multiplication at reasonable voltages. However, due to the photons produced from the de-excitation of target atoms, the gain for pure noble gas detectors is limited. This was overcome by adding \ce{C}\ce{H_4}, allowing for gains of up to $10^6$ compared to around $10^3$ with a pure noble gas\cite{fernow_1986}. The poly-atomic gas has multiple energy levels allowing for the absorption of these photons. Figure \ref{fig:Dark} shows results from several experiments mainly centred in the energy range $3-10$\,Gev with few experiments with low mass sensitivity. The NEWS-G collaboration have set a constraint of $4.4 \times 10^{-37} cm^2$ for a WIMP mass of 0.5 $GeV$ which is shown by the solid red line. Before these results in 2018 the CRESST 2015 direct detection experiment was one of the only experiments to have a mass sensitivity of 0.5GeV \cite{Angloher_2016}.
 \begin{figure}[H]
     \centering
-    \includegraphics[height=8cm]{Dark.png}
+    \includegraphics[height=8cm]{plots/Dark.png}
     \caption{Constraints of Cross Section vs Mass for several recent experiments\cite{Arnaud_2018}.}
     \label{fig:Dark}
 \end{figure}
@@ -84,7 +84,7 @@ The Spherical Proportional Counter (SPC) was first proposed in 2008 as a multipu
 During direct Dark Matter detection, the background interactions within the detector volume have to be understood or completely removed. There is a large contribution from neutrons originating from two sources. One source is cosmic rays interacting with both the atmosphere and ground \cite{10.2307/984841,saxena}. Atmospheric neutrons have been measured to a reasonable degree of uncertainty \cite{flux}, which would usually dominate experiments looking for weak interacting particles. This has been negated by placing detectors such as SEDINE in underground laboratories. However placing detectors in these underground laboratories surrounds them in the second source of background neutrons, which originate from the rock produced by Uranium-Thorium traces \cite{TZIAFERI2007326}. Shielding these neutrons is difficult, so studying how neutrons interact with the detector will allow for the separation from WIMP candidates.
 \begin{figure}[H]
     \centering
-    \includegraphics[height=6cm]{Cross.png}
+    \includegraphics[height=6cm]{plots/Cross.png}
     \caption{Measured neutron cross section for the \ce{^{3}He}(n,p)\ce{^{3}H} interaction at neutron energies $10^{-4}$\,eV to 10\,MeV \cite{hnps2579}}
     \label{fig:cross1}
 \end{figure}
@@ -93,7 +93,7 @@ Section \ref{wall}). An SPC has a much greater volume compared to its wall surfa
 \newline The aims of this project were to characterise the detector using pure nitrogen gas, and to demonstrate the feasibility of neutron spectroscopy at higher pressures.
 \begin{figure}[H]
     \centering
-    \includegraphics[height=8cm]{Crosssection.png}
+    \includegraphics[height=8cm]{plots/Crosssection.png}
     \caption{Measured neutron cross section for the \ce{^{14}N}(n,p)\ce{^{14}C} interaction at neutron energies $10^{-5}$\,eV to 1\,MeV \cite{young_foster_1972}}
     \label{fig:cross}
 \end{figure}
@@ -103,7 +103,7 @@ Section \ref{wall}). An SPC has a much greater volume compared to its wall surfa
 The detector consists of a grounded 30\,cm stainless steel sphere with a central anode atop a grounded rod, as shown in Figure \ref{fig:sphere}. The gas within the volume was first evacuated using a vacuum pump, which operated overnight. The sphere was then filled with nitrogen gas to the desired pressures. 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=7cm]{sphere.png}
+    \includegraphics[height=7cm]{plots/sphere.png}
     \caption{Diagram describing the Spherical Proportional Counter (SPC) showing the sphere wall, central anode and how an electron moves within the volume of the detector\cite{savvidis2017low}}
     \label{fig:sphere}
 \end{figure}
@@ -114,7 +114,7 @@ The detector consists of a grounded 30\,cm stainless steel sphere with a central
 The electric field also depends upon the central anode radius $r_2$ and the radius of the sphere $r_1$. The electric field produces a drift region within the detector volume due to the voltage difference of the anode and the sphere acting as a cathode. When an incident particle interacts with the gas it ionises and produces ion pairs along a path through the volume. The ions drift towards the cathode (sphere wall) and the electrons drift towards the central anode. As the electrons drift towards the anode, their kinetic energies increase as the electric field becomes stronger, and within a few millimetres of the anode, the electric field becomes strong enough for secondary ionisations to occur. Figure \ref{fig:avala} describes how this process occurs with the electric field producing an avalanche region where multiplication can occur. It is important that avalanches are proportional to the number of electrons produced from the ionisation track in order to obtain energies describing the incident particle. This can then be characterised using the gain of the detector which has been calculated in Section \ref{gain}.
 \begin{figure}[H]
     \centering
-    \includegraphics[height=7cm]{avalanches.jpg}
+    \includegraphics[height=7cm]{plots/avalanches.jpg}
     \caption{Diagram describing how the electrons multiply within an electric field produced by an anode wire \cite{wikipedia_2021}}
     \label{fig:avala}
 \end{figure}
@@ -124,7 +124,7 @@ The wall effect is a process where the incident particle does not dissipate all 
 The interaction with the wall at end of the track can be reduced or even removed completely by increasing the number of target nuclei in the path of the incident particle, which can be achieved by increasing the pressure. For thermal neutrons, the proton's range at 500\,mbar is around 2.2\,cm \cite{katsioulas_2016}, which produced a wall effect of 2\,\%. This could be further reduced by increasing the pressure to 2\,bar, thereby increasing the number of target nuclei in the path of proton. 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=5cm]{walll.png}
+    \includegraphics[height=5cm]{plots/walll.png}
     \caption{Diagram showing examples of incident particles interacting with the detector volume and detector wall, with the blue lines describing the ionisation tracks.}
     \label{fig:wall}
 \end{figure}
@@ -134,7 +134,7 @@ Previous detectors used a single anode at the centre of the sphere shown in Figu
 \newline Achinos was developed by the NEWS-G collaboration to increase electric field without increasing the probability of electrical discharge. Presented in Figure \ref{fig:achinos}, it consists of 11 $\diameter$\footnote{$\diameter$-Diameter} 1\,mm anodes equidistant from the central $\diameter$36\,mm, Diamond Like carbon (DLC) coated sphere which is held in place by a grounded rod. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{achinos.png}
+    \includegraphics[height=5cm]{plots/achinos.png}
     \caption{Diagram of Achinos sensor, comprising of 11 anodes surrounding a central sphere, atop a grounded rod \cite{Giomataris_2020}}
     \label{fig:achinos}
 \end{figure}
@@ -145,7 +145,7 @@ Previous detectors used a single anode at the centre of the sphere shown in Figu
 The electronics used in the operation of the detector are shown in Figure \ref{fig:elec}.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=4cm]{elec.png}
+    \includegraphics[height=4cm]{plots/elec.png}
     \caption{Diagram describing the electronics used during the experiment.}
     \label{fig:elec}
 \end{figure}
@@ -153,14 +153,14 @@ The electronics used in the operation of the detector are shown in Figure \ref{f
 The high voltage supply is controlled using a computer program that allows for the fine control of voltage. It is important that when increasing the voltage, it increases at a steady rate to reduce the chance of electrical discharge, achieved by taking breaks at 100-200V intervals for the voltage to stabilise. This can be controlled remotely using team-viewer and allows for four channels of high voltage, of which two were used in this experiment.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{amp.png}
+    \includegraphics[height=5cm]{plots/amp.png}
     \caption{Block Diagram of electronics used in ORTEC 142AH pre-amplifier \cite{ortec}}
     \label{fig:amp}
 \end{figure}
 \noindent To allow for a single cable to be used for detection and voltage bias, the pre-amplifier uses AC coupling. This is shown in Figure \ref{fig:amp} where the voltage bias is coupled to the amplifier using the front capacitor and then the input is connected to multiple anodes. It is important that the smallest length cable is used to reduce the capacitance, reducing the amount of noise produced from the pre-amplifier. The pre-amplifier is charge sensitive from the capacitor connected across the amplifier which produces the front part of the pulse in Figure \ref{fig:amplifier}. The resistor across the capacitor produces the exponential fall of around $500\,\mu s$ \cite{ortec_web} shown in Figure \ref{fig:amplifier}. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{amplifier.png}
+    \includegraphics[height=5cm]{plots/amplifier.png}
     \caption{Simulation of induced current on detector and output from the pre-amplifier \cite{news_2020}}
     \label{fig:amplifier}
 \end{figure}
@@ -179,7 +179,7 @@ Several characteristics can be determined from the pulses shown in Figure \ref{f
 \newline Using 2D histograms, regions could be identified and isolated using cuts to remove unwanted pulses without carrying out amplitude cuts. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{peak.png}
+    \includegraphics[height=5cm]{plots/peak.png}
     \caption{Screen shot of two pulses triggering from the detector}
     \label{fig:peak}
 \end{figure}
@@ -188,7 +188,7 @@ The sphere would be first evacuated using the vacuum pump to a desired pressure 
 \newline There is no need for a quencher gas, as there is no need to carry out neutron spectroscopy at very large gains, due to the higher cross section.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{gas.png}
+    \includegraphics[height=5cm]{plots/gas.png}
     \caption{Diagram of the gas setup used in the experiment. It comprised of a gas bottle, gas filter, pressure sensor and vacuum pump, which was controlled by a number of valves.}
     \label{fig:gas}
 \end{figure}
@@ -198,7 +198,7 @@ There were several preliminary studies carried out to characterise the detector 
 It is important to characterise the gain of the detector to understand how the incident particle interacts within the volume of the detector and how the charges fall onto the anode. The plot in Figure \ref{fig:gain} shows the multiple regions that the detector can operate in. The first region consists of the recombination region where the electric field is not strong enough to completely separate the ions and electrons before recombining which would produce a gain of less than 1. The ionisation region is where the ions and electrons separate and are allowed to fall on to the electrodes without any multiplication, which would produce a gain of 1. The next region is where most of the experiments are carried out as it allows the original electrons to gain enough kinetic energy to cause secondary ionisations, allowing for an increased signal which is still proportional to the charge of the incident particle, producing a gain of around $1-10^5$. Beyond this region the detector operated in a limited proportional region and Geiger-Muller mode where the signals were very large but independent of the charge originally deposited in the detector volume. At these higher gains the probability of electrical discharge is high and can damage the electronics and the detector.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=10cm]{gain.png}
+    \includegraphics[height=10cm]{plots/gain.png}
     \caption{Plot showing the number of ions collected against voltage across the anode. This describes the multiple regions that a spherical proportional counter can operate in \cite{sauli_2014}.}
     \label{fig:gain}
 \end{figure}
@@ -222,7 +222,7 @@ Where \textbf{A} is the amplitude of the alpha peak described by a Gaussian fit,
 Results were first taken for 500\,mbar using the CANBERRA pre-amplifier, however as previously stated the amplifier has a small time constant which doesn't allow for the higher rise times produced from the detector before the pulse is cut off. In Figure \ref{fig:uj} the alpha peak has been separated into multiple peaks caused by the ballistic deficit, which makes the analysis difficult as it fails to follow a statistical Gaussian shape.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{uj27n001_amp.png}
+    \includegraphics[height=5cm]{plots/uj27n001_amp.png}
     \caption{Plot of Polonium 210 alpha peak, showing the ballistic deficit at 500\,mbar.}
     \label{fig:uj}
 \end{figure}
@@ -234,14 +234,14 @@ Results were first taken for 500\,mbar using the CANBERRA pre-amplifier, however
 Constants \textbf{A}, \textbf{$\mu$} and \textbf{$\sigma$} were optimised using the curve fit function found in the scipy python module \cite{scipy}. The curve\_fit module produces an error for the estimated values which were used as well as experimental errors on the components of Equation \ref{eq:gain}. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{uk09n002_amp.png}
+    \includegraphics[height=5cm]{plots/uk09n002_amp.png}
     \caption{Plot of Americium 241 alpha peak at 2700V for 500\,mbar.}
     \label{fig:uk}
 \end{figure}
 \noindent Using the means from the plotted Gaussian, the gain was calculated using equation \ref{eq:gain} and plotted against voltage in Figure \ref{fig:gain1}. In comparison with the known gain curve in Figure \ref{fig:gain}, only the proportional region and the start of the ionisation region can really been seen with the gain reaching just above 1 at 400V and increasing exponentially to around 60 at 2700V. This was the lowest voltage before the alpha peak would start to combine with the low amplitude noise peak and become unrecognisable.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{gain1.png}
+    \includegraphics[height=5cm]{plots/gain1.png}
     \caption{Plot for the gain at voltages between 2700V and 400V for 500\,mbar nitrogen}
     \label{fig:gain1}
 \end{figure}
@@ -250,7 +250,7 @@ Constants \textbf{A}, \textbf{$\mu$} and \textbf{$\sigma$} were optimised using 
 Results at 1\,bar were taken using the Polonium-210 sample located at the bottom of the sphere, decaying via alphas with energies of around 5.3\,MeV \ref{ap:a11}, producing peaks very similar to the ones in Figure \ref{fig:uk}. Figure \ref{fig:gain2} shows the gain plot at 1\,bar between 1800-3800\,V with the regions described by the three colours. At voltages between 1800-1900V the detector operates within the recombination region with a gain of less than one which is shaded in red. Voltages between 1900-2050\,V are in the ionisation region where the w value can be calculated and voltages between 2050-3800\,V are within the proportional region where the experiments for neutron spectroscopy operate.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{1bargainfit.png}
+    \includegraphics[height=5cm]{plots/1bargainfit.png}
     \caption{Plot for the gain at voltages between 3800V and 1800V for 1\,bar nitrogen}
     \label{fig:gain2}
 \end{figure}
@@ -274,7 +274,7 @@ Calibration allows for the conversion of amplitude [ADU] to energy [eV], allowin
 The detector has two channels that can be recorded, near and far. However when using an alpha source placed at the bottom of the sphere only the far channel will produce an alpha peak due to the minimal penetration of an alpha particle. This results in only the far channel being calibrated, though in future, the source could be moved using the magnet to calibrate the other channel. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{3800_2N.png}
+    \includegraphics[height=5cm]{plots/3800_2N.png}
     \caption{Calibration plot for 1\,bar at 3800V}
     \label{fig:cali}
 \end{figure}
@@ -306,7 +306,7 @@ As the radon has a known half-life, the count-rate will decrease to a known amou
 The two measurements were taken at 3600V at a pressure of 1\,bar and produced the two histograms in Figure \ref{fig:radon}. The red histogram is that of the first run producing the higher rate compared to the second run, which is shown in blue. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.5cm]{radon.png}
+    \includegraphics[height=3.5cm]{plots/radon.png}
     \caption{Radon peaks for 1\,bar at 3600V for both the near and far channel. The Red histogram is the first run and the blue is the second run.}
     \label{fig:radon}
 \end{figure}
@@ -348,7 +348,7 @@ Which has the characteristics,
 The material is held within a X3 stainless steel capsule shown in Figure \ref{fig:ambe}, with dimensions $d = 22.4\,mm$ and $h = 31\,mm$. The case decreases the neutron output for the source to $2.6 \times 10^{6}\,Bq$ but keeps the source contained. Due to the high average neutron energy it is important that the source be kept in a radiation box when not being used due to the high average energy of the neutron.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{ambe.png}
+    \includegraphics[height=5cm]{plots/ambe.png}
     \caption{Diagram of Am-Be source contained within a stainless steel capsule \cite{LORCH1973585}}
     \label{fig:ambe}
 \end{figure}
@@ -356,7 +356,7 @@ The material is held within a X3 stainless steel capsule shown in Figure \ref{fi
 For operations in the laboratory at the University of Birmingham it is dangerous to have a neutron source with energies in the MeV range. To slow the neutrons to thermal energies, the source was placed in the centre of the graphite stack shown in Figure \ref{fig:stack}, with the graphite acting as a moderator. The graphite was selected as a moderator due to its low neutron absorption of 0.0035\,barns and its large neutron scattering cross section of 5.56\,barns \cite{taylor_francis_1992}. It is also selected for its good thermal stability, reasonable cost and the fact that it is self contained, compared to other moderators such as deuterium \cite{osti_4844185}.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=8cm]{stack.jpg}
+    \includegraphics[height=8cm]{plots/stack.jpg}
     \caption{Photo of graphite stack and SPC at The University of Birmingham \cite{ion}}
     \label{fig:stack}
 \end{figure}
@@ -367,7 +367,7 @@ Neutron measurements were taken at multiple voltages at 1\,bar, but only 3800V i
 \newline The raw data acquired from the detector during a neutron measurement is shown in Figure \ref{fig:ampb}. It produces a double peak, were the large low amplitude peak is a combination of noise that was not removed from the acquisition cut and a contribution from the incident particles interacting with the wall, resulting in lower energy being recorded. The second peak is produced by the thermal neutrons, though there remains a number of expected noise events within this peak. 
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_ampbefore.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_ampbefore.png}
     \caption{Amplitude histogram of raw data produced for 3800V at 1\,bar}
     \label{fig:ampb}
 \end{figure}
@@ -380,7 +380,7 @@ for i in range(len(amplitude_c)):
 \noindent After the cuts were made, the rate of the neutron peak was calculated and would be compared to the simulated number of neutrons that passed though the detector volume. The plot in Figure \ref{fig:prob} shows the probability of the neutrons passing through the detector volume at multiple neutron energies after passing through the graphite stack, produced using a simulation provided, of the graphite stack \cite{Ben}. Using the known activity of the source, the expected number of events passing through the detector volume can be calculated to be  $6.76 \times 10^3$\,Hz. Comparing the expected number of neutrons passing through the detector volume and the rate detected allows for a calculation of the efficiency.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=5cm]{hist.png}
+    \includegraphics[height=5cm]{plots/hist.png}
     \caption{Probability for the distribution of neutron energies reaching the detector from the middle of the stack \cite{Ben}}
     \label{fig:prob}
 \end{figure}
@@ -402,27 +402,27 @@ The run selected for 1\,bar was at 3800V which from the gain study would equate 
 \newline Particularly observed in the far channel, is a region of around 250\,ADU that was believed to be the thermal neutron peak. To ensure that this region was produced by physical events or neutrons, multiple pulses were checked within and around the region. This was done by checking the proportionality between the height and the fall and comparing pulses within the region with pulses from outside the region.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_rise.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_rise.png}
     \caption{2D histogram of amplitudes vs rise time at 3800V, 1\,bar}
     \label{fig:1rise}
 \end{figure}
 \noindent The rise time removes a large majority of the low amplitude peak but is not very precise as the neutron region is quite broad, which allows for low rise time noise to remain. Figure \ref{fig:1fall} shows the 2D histogram for the amplitude vs fall of the pulse and was a good remover of the low amplitude noise as well as events around the neutron amplitudes especially in the near channel with majority of the dense region falling outside the cut region.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_fall.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_fall.png}
     \caption{2D histogram of amplitude vs fall at 3800V, 1\,bar}
     \label{fig:1fall}
 \end{figure}
 \noindent The cuts on both channels are the same on this run as both channels are very similar, but they are selected individually, shown later on at higher pressures. The regions in Figures \ref{fig:1fall}, \ref{fig:1dur} are very broad, suggesting that the fall and duration varies considerably more for the same pulse height which allows for the lower amplitude noise to remain.
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_dur.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_dur.png}
     \caption{2D histogram of amplitude vs duration at 3800V, 1\,bar}
     \label{fig:1dur}
 \end{figure}
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_len.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_len.png}
     \caption{2D histogram of amplitude vs ratio at 3800V, 1\,bar}
     \label{fig:1len}
 \end{figure}
@@ -455,7 +455,7 @@ and the standard deviation of the weighted Gaussian \cite{tzamarias}:
 \end{equation}
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_amp.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_amp.png}
     \caption{Neutron peak for 3800V at 1\,bar after cuts on the characteristics of the pulse}
     \label{fig:1aft}
 \end{figure}
@@ -472,7 +472,7 @@ The far channel had a mean of $256.36 \pm 16.99$\,ADU with a resolution of $21.6
 \newline The total rate between the two channels contains simultaneous events. These are not shared events  between the channels, as that would produce events that were half the energy (or amplitude) of the neutron peak. The simultaneous events are shown in Figure \ref{fig:1sym}\,a) and are centered around the amplitude of the neutron peak.
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_symgood.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_symgood.png}
     \caption{Symmetry plots vs far channel for 3800V at 1\,bar. a)Events that triggered on both channels, b) events that are only triggered on the far channel, c) total symmetry for the far channel}
     \label{fig:1sym}
 \end{figure}
@@ -480,7 +480,7 @@ The far channel had a mean of $256.36 \pm 16.99$\,ADU with a resolution of $21.6
 \newline For 1\,bar the detector has been calibrated, shown in Section \ref{calib} and i was possible to convert the amplitude to energy, shown in Figure \ref{fig:1ev}. The mean energy of the peak is $625.91 \pm 162.84$\,keV, which is close to the expected energy from Equation \ref{eq:neu}. The error is calculated using Equation \ref{eq:error} is considerable and could be improved by more energy points on the calibration plot. The histogram is again described with the double Gaussian, with the separate peaks being very similar to that of Figure \ref{fig:1aft}
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n001_ev.png}
+    \includegraphics[height=3.7cm]{plots/uk24n001_ev.png}
     \caption{Histogram for neutron energy on the far channel for 3800V at 1\,bar}
     \label{fig:1ev}
 \end{figure}
@@ -501,42 +501,42 @@ The far channel had a mean of $256.36 \pm 16.99$\,ADU with a resolution of $21.6
 Two voltages were taken at 1.5\,bar, one at 4500\,V and one at 4800\,V. The 4800\,V run however failed to acquire past 4000 seconds resulting in minimal statistics so was discarded. The raw data shown in Figure \ref{fig:2bef} has a considerable low amplitude peak, with the neutron peak being around 900\,ADU. Compared to the raw data from the 1\,bar results in Figure \ref{fig:ampb} the neutron peak is about double the amplitude and much smaller in comparison to the noise peak. The rate on the near channel was $16.7$\,Hz and rate on the far channel was $19.1$\,Hz. 
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_ampbefore.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_ampbefore.png}
     \caption{Raw data from 4500V at 1.5\,bar}
     \label{fig:2bef}
 \end{figure}
 \noindent The large low amplitude peak is slightly different to that of 1\,bar, with a small foot at the bottom. Analysing the amplitude vs time in Figure \ref{fig:2tim}, it shows electronic discharge at the start and end of the run. This could be removed with a time cut between 7000-21000 seconds, although this would result in lost neutron events, so normal cuts were used to try and remove this to isolate the neutron peak.
 \begin{figure}[H]- 
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_time.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_time.png}
     \caption{amplitude against time from 4500V at 1.5\,bar}
     \label{fig:2tim}
 \end{figure}
 \noindent The regions in the rise time plot in Figure \ref{fig:2rise} are more separated than those in Figure \ref{fig:1rise}, with more defined regions due to the higher pressure reducing the length of the ionising track. There are two regions that contribute to the low amplitude peak. One occurs at low rise time that is included in the cut which is most likely either produced by a neutron that has not fully dissipated it energy in the volume of the detector or the electrical discharge that is occurring in the detector and another large region between 0.4 and 0.8 milliseconds which is possibly electrical noise.
 \begin{figure}[H]-
 \centering
-\includegraphics[height=3.7cm]{uk24n002_rise.png}
+\includegraphics[height=3.7cm]{plots/uk24n002_rise.png}
 \caption{2D histogram of amplitudes vs rise time at 3500V, 1.5\,bar}
 \label{fig:2rise}
 \end{figure}
 \noindent The 2D histogram in Figure \ref{fig:2fall} had to have more checks than other cuts due to the large region in the far channel under the lower red cut line which is not present in the near channel. Multiple pulses were checked below the cut line, which looked very different to that of the pulses in the cut region and so were removed using the cut. This cut was very efficient at cutting the low amplitude noise with the densest region falling outside of the cut area.
 \begin{figure}[H]-
 \centering
-\includegraphics[height=3.7cm]{uk24n002_fall.png}
+\includegraphics[height=3.7cm]{plots/uk24n002_fall.png}
 \caption{2D histogram of amplitudes vs fall at 3500V, 1.5\,bar}
 \label{fig:2fall}
 \end{figure}
 \noindent The cut region on the far channel in Figure \ref{fig:2dur} is much larger than the cut region on the near which allows for more unwanted events to pass through the cut. However compared to Figure \ref{fig:2fall} there is no distinct separate regions in this area.
 \begin{figure}[H]-
 \centering
-\includegraphics[height=3.7cm]{uk24n002_dur.png}
+\includegraphics[height=3.7cm]{plots/uk24n002_dur.png}
 \caption{2D histogram of amplitudes vs duration at 3500V, 1.5\,bar}
 \label{fig:2dur}
 \end{figure}
 \noindent The ratio cut in Figure \ref{fig:2len} was very efficient at removing the unwanted events because the long thin region allowed for a large portion of the dense region at low amplitude being removed.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_len.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_len.png}
     \caption{2D histogram of amplitudes vs ratio at 3500V, 1.5\,bar}
     \label{fig:2len}
 \end{figure}
@@ -559,7 +559,7 @@ Near                  & 0.0055                   & 0.1   & 0.68                 
 \noindent Comparing the histogram produced after the cuts with the raw data in Figure \ref{fig:2com}, the low amplitude peak is still comparable to the size of the neutron peak but has been reduced compared to the low amplitude peak in the raw data. This is most likely due to sparking within the detector (Figure \ref{fig:2tim}) which produced pulses that passed all of the cuts. Around the neutron peak the cuts have been very efficient, not removing excessive amounts of the peaks.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_ampcomp.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_ampcomp.png}
     \caption{Histogram comparing cut data in blue with raw data in red at 3500V, 1.5\,bar}
     \label{fig:2com}
 \end{figure}
@@ -568,14 +568,14 @@ Near                  & 0.0055                   & 0.1   & 0.68                 
 \newline The double Gaussian in the far channel has a $\frac{\chi^2}{d_{of}} = 1.72$, however its mostly described by the first single Gaussian peak which has a amplitude of $893.67 \pm 1.43$\,ADU, with a resolution of $15.29$\,\%. The total rate of the neutron region was $1.6$\,Hz.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_amp2.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_amp2.png}
     \caption{Amplitude histogram of cut data at 3500V, 1.5\,bar}
     \label{fig:2amp}
 \end{figure}
 \noindent The simultaneous event rate was calculated to be $0.16$\,Hz which is shown in Figure \ref{fig:2sym}, reducing the total detection rate to $1.92$\,Hz, which equated to an efficiency of $3.08\times 10^{-04}$ which has reduced slightly compared to 1\,bar .
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk24n002_symcutgood1.png}
+    \includegraphics[height=3.7cm]{plots/uk24n002_symcutgood1.png}
     \caption{2D histogram of amplitudes vs ratio at 3500V, 1.5\,bar}
     \label{fig:2sym}
 \end{figure}
@@ -595,27 +595,27 @@ Near                  & 0.0055                   & 0.1   & 0.68                 
 \noindent The voltage selected for the run is at the limit of the electronics, which resulted in the neutron peak appearing closer to the large low amplitude noise peak shown in Figure \ref{fig:3bef} compared to the 1.5\,bar and is more comparable to the 1\,bar run. The rate in the near channel was $5.4$\,Hz and $5.5$\,Hz in the far channel.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_ampbefore.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_ampbefore.png}
     \caption{Raw data for 4950V, 2\,bar}
     \label{fig:3bef}
 \end{figure}
 \noindent Due to the higher pressure, the regions in Figure \ref{fig:3rise} are more separated with less events between the regions. Compared to the rise times for 1\,bar and 1.5\,bar in Figures \ref{fig:1rise} and \ref{fig:2rise}, the low amplitude low rise time region has greatly reduced. This is believed to be where interactions effected by the wall effect would be found, with comparable rise times to the neutrons but at a lower energy. This suggests that the higher pressure has reduced the length of the ionisation tract to a point where the probability of it hitting the wall before dissipating all of its energy is very low.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_rise.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_rise.png}
     \caption{2D histogram of amplitudes vs rise time for 4950V, 2\,bar}   
     \label{fig:3rise}
 \end{figure}
 \noindent However this has had negative effects in the fall plots shown in Figure \ref{fig:3fall}, with the region being more spread out and resulting in a cut that only removed minimal noise events. This suggests that as the pressure increases, the size of the exponential fall becomes more erratic and unpredictable. However, the fall is dependent on the electronics, which were being used at the voltage limit which possibly could be the reason for this and could be negated with higher voltage rated electronics.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_fall.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_fall.png}
     \caption{2D histogram of amplitudes vs fall for 4950V, 2\,bar}
     \label{fig:3fall}
 \end{figure}
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_dur.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_dur.png}
     \caption{2D histogram of amplitudes vs width  for 4950V, 2\,bar}
     \label{fig:3dur}
 \end{figure}
@@ -623,7 +623,7 @@ Near                  & 0.0055                   & 0.1   & 0.68                 
 \newline The ratio plot also allows for a good cut to remove a portion of the low amplitude region, with a clear distinct region spread across the area of interest for the neutron peak. In future a diagonal amplitude cut could completely isolate then neutron region.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_len.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_len.png}
     \caption{2D histogram of amplitudes vs ratio  for 4950V, 2\,bar}
     \label{fig:3len}
 \end{figure}
@@ -649,14 +649,14 @@ Near                  & 0.004                    & 0.1                          
 \newline In the far channel the double Gaussian fits the histogram well with a chi squared of $1.11$. However the data can be described by a single Gaussian for the most of the events, with a small second peak after that. The single Gaussian had a mean of $481.88 \pm 1.11$\,ADU, a resolution of $21.91$\,\% and a rate of $0.70$\,Hz. The resolution on both channels is comparable to the resolution of 1\,bar, suggesting that the 1.5\,bar results were affected by the electrical discharges.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_amp.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_amp.png}
     \caption{Amplitude histogram of cut data for 4950V, 2\,bar}
     \label{fig:3amp}
 \end{figure}
 \noindent The simultaneous event rate was calculated to be $0.02$\,Hz, with these events shown in Figure \ref{fig:3sym} and was removed producing the total rate of $1.12$\,Hz, resulting in an efficiency of $1.65\times 10^{-04}$. This is smaller but comparable to 1\,bar even with a much lower count rate.
 \begin{figure}[H]-
     \centering
-    \includegraphics[height=3.7cm]{uk26n000_symcheck2.png}
+    \includegraphics[height=3.7cm]{plots/uk26n000_symcheck2.png}
     \caption{2D histogram of amplitudes vs ratio at 4950V, 2\,bar}
     \label{fig:3sym}
 \end{figure}
@@ -696,19 +696,19 @@ Many thanks to the NEWS-G group located in Birmingham, especially to my supervis
     \subsection{Americium 241 Alpha Decay} \label{ap:a1}
         \begin{figure}[H]-
         \centering
-        \includegraphics[height=5cm]{Am241.png}
+        \includegraphics[height=5cm]{plots/Am241.png}
         \caption{Alpha decay of Americium-241 \cite{Malain_2019}}
         \end{figure}
     \subsection{Polonium 210 Alpha Decay} \label{ap:a1}
         \begin{figure}[H]-
         \centering
-        \includegraphics[height=5cm]{po210.png}
+        \includegraphics[height=5cm]{plots/po210.png}
         \caption{Alpha decay of Polonium-241 \cite{lieser_2001}}
         \end{figure}
     \subsection{Decay chain of radon 222} \label{ap:a2}
         \begin{figure}[H]-
         \centering
-        \includegraphics[height=5cm]{radon222.png}
+        \includegraphics[height=5cm]{plots/radon222.png}
         \caption{Decay chain of radon 222 \cite{nhess-10-2051-2010}}
         \end{figure}
     \section{Repository}
